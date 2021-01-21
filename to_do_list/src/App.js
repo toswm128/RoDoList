@@ -1,10 +1,13 @@
 import React from "react";
 import './App.css';
-import ToDoList from './Component/Todolist';
+import ToDo from './Component/Todo';
+import ToDoInput from './Component/ToDoInput';
 
 function App(){
   return(
-    <ToDoList />
+    <>
+      <ToDoInput />
+    </>
   )
 }
 
